@@ -136,6 +136,8 @@ body {
 /* Produtos */
 .produtos {
     background-color: #1E1C21;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .produtos .row {

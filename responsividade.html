@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* mobile first */
+        .container {
+            width: 100%;
+            border: 1px solid salmon;
+        }
+
+        h1 {
+            font-size:1.2rem;
+        }
+
+    /* BREAKPOINTS */
+    
+        /* Telas Médias - Tablets >= 768px */
+        @media screen and (min-width: 768px) {
+          h1 {
+              font-size: 1.8rem;
+              text-align: center;
+          }  
+        }
+
+        /* Telas Médias Desktops >= 992px */
+        @media screen and (min-width: 992px) {
+            .container {
+                max-width: 900px;
+                margin: 0 auto;
+            }
+        }
+
+        /* Telas Médias Desktops >= 992px */
+        @media screen and (min-width: 992px) {
+            h1 {
+                background-color: burlywood;
+                color: brown;
+            }
+        }
+
+        /* Telas Largas Notebooks >= 1200px */
+        @media screen and (min-width: 1200px) {
+            
+        }
+
+        /* Telas Extras Largas Full HD >= 1441px */
+        @media screen and (min-width: 1441px) {
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class= "container">
+        <h1>Responsividade na Web</h1>
+    </div>
+</body>
+</html>
