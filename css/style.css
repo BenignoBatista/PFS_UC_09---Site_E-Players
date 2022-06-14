@@ -14,6 +14,9 @@
 }
 
 /* Reset */
+.jogos {
+    display: none;
+}
 
 *{
     margin: 0;  
@@ -41,9 +44,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+      
 }
 
+/* navbar */
 .menu-principal {
     width: 50%;
     /* border: 1px solid white; */
@@ -143,4 +147,100 @@ body {
 .produtos .row {
     margin: 0;
     color: white;
+}
+
+/* Personalização do bootstrap */
+.container {
+    max-width: 1200px;
+}
+
+.btn-danger {
+   background-color: salmon;
+   border: 1px solid salmon;
+}
+
+.btn-danger:hover {
+    background-color: #f76555;
+    border: 1px solid #f76555 ;
+}
+
+.card {
+    max-width: 270px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+    background-image: linear-gradient(to bottom, #444444, #1e1c21);
+}
+.card .btn {
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-top: 10px;
+    text-transform: uppercase !important;
+    border-radius: 10px;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-family: "TitilliumWeb-SemiBold";
+    font-size: 1.3rem;
+}
+
+.card-price {
+    font-family: "TitilliumWeb-SemiBold";
+    font-size: 1.5rem;
+}
+
+/* Medias */
+
+/*Celular: 0 - 767px */
+/*Tablet: 768 - 991px */
+/*Desktop: >= 992px */
+
+
+/*Desktop: >= 992px */
+@media screen and (min-width: 992px){
+    .menu-bars{
+        display: none;
+    }
+}
+
+/*Tablet: 768 - 991px */
+@media screen and (max-width: 991px){
+    .cabecalho {
+        padding: 20px 25px;
+    }
+
+    .header-flex{
+        height: 60px;
+    }
+
+    .menu-bars{
+        width: 40px;
+          
+    }
+
+    .menu-principal {
+        display: none;
+    }
+    
+    .menu-principal a {
+        color: red;
+    }
+}
+
+/*Celular: 0 - 767px */
+@media screen and (max-width: 767px){
+    .logotipo {
+        width: 150px;
+    }
+    
+    .menu-bars {
+        width: 25px;
+    }
+
+    .menu-principal a {
+        color: blue;
+    }
 }
