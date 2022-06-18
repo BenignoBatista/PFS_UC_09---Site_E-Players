@@ -192,6 +192,90 @@ body {
     font-size: 1.5rem;
 }
 
+/* Como participar */
+.cparticiparbackground {
+    background-image: url(../images/fundo-sobre.png);
+    color: white;
+}
+
+.comoparticiparbox{
+    height:490px;
+    padding-left: 20px;
+}
+
+.comoparticipar {
+    font-family: "Roboto-Medium"
+}
+
+.comoparticipartexto {
+    /* padding: 20px; */
+}
+
+/* Footer */
+.footer {
+    background-color: #010101;
+}
+
+.rodape {
+    height:250px;
+}
+
+.linksbox {
+    width: 240px;
+    height: 250px;
+    padding: 20px;
+}
+
+.linkstítulo {
+    font-size: 24px;
+    font-family: "TitilliumWeb-SemiBold";
+    color: white;
+}
+
+.links {
+    font-family: "TitilliumWeb-SemiBold";
+    color: white;
+}
+
+.logotipobox{
+    width: 240px;
+    height: 250px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logotipo2 {
+    width: 282px;
+    height: 29px;
+}
+
+.casdastroredes {
+    color: white;
+}
+
+.assinenewsletter{
+    font-size: 16px;
+    font-family: "TitilliumWeb-SemiBold";
+    color: white;
+}
+
+.cadastroemail{
+    flex-direction: row;
+}
+
+.email {
+    width: 195px;
+    height: 39px;
+    background-color: white;
+}
+
+.cadastrar {
+    width: 156px;
+    height: 39px;
+    background-color: #001F70;
+}
+
 /* Medias */
 
 /*Celular: 0 - 767px */
@@ -218,16 +302,9 @@ body {
 
     .menu-bars{
         width: 40px;
-          
     }
-
-    .menu-principal {
-        display: none;
-    }
-    
-    .menu-principal a {
-        color: red;
-    }
+           
+   
 }
 
 /*Celular: 0 - 767px */
@@ -240,7 +317,39 @@ body {
         width: 25px;
     }
 
-    .menu-principal a {
-        color: blue;
+    .navbarShow {
+        left: 0 !important;
+
+    }
+
+    /* navbar */
+    .menu-principal {
+        position: fixed; /* viewport/janela */
+        top: 0px;
+        left: -80%;
+        z-index: 10;
+
+        width: 80%;
+        height: 100%;
+        background: #1E1C21;
+
+        /* Já tem flexbox */
+        flex-direction: column;
+        justify-content: center;
+
+        transition: left 0.5s;
+    }
+
+    .menu-principal	a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+        /* background-color: rgba(255,255,255,0.8); */
     }
 }
+
+
