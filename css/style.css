@@ -217,7 +217,9 @@ body {
 }
 
 .rodape {
-    height:250px;
+    max-width: 1200px;
+    height: 250px;
+    justify-content: space-between;
 }
 
 .linksbox {
@@ -248,10 +250,14 @@ body {
 .logotipo2 {
     width: 282px;
     height: 29px;
+    padding: 2px;
 }
 
-.casdastroredes {
+.cadastroredes {
     color: white;
+    flex-direction: column;
+    justify-content: space-around;
+
 }
 
 .assinenewsletter{
@@ -268,12 +274,39 @@ body {
     width: 195px;
     height: 39px;
     background-color: white;
+    font-size: 24px;
+    font-family: "TitilliumWeb-SemiBold";
+    color: #B8B3B3;
 }
 
 .cadastrar {
     width: 156px;
     height: 39px;
     background-color: #001F70;
+    font-size: 24px;
+    font-family: "TitilliumWeb-SemiBold";
+    color: #ffffff;
+}
+
+.redesocial {
+color: white;
+font-size: 23px;
+font-family: "TitilliumWeb-SemiBold";
+}
+
+.logoinsta {
+    width: 47px;
+    height: 47px;
+}
+
+.logoface {
+    width: 53px;
+    height: 48px;
+}
+
+.logoyoutube {
+    width: 38x;
+    height: 38px;
 }
 
 /* Medias */
