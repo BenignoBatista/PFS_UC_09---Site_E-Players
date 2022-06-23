@@ -4,3 +4,7 @@ function mostraEscondeMenu() {
    navbar.classList.toggle("navbarShow");
 
 }
+
+function acessarlogin() {
+    // <a href="./index ER04.html" class=""></a>
+}
