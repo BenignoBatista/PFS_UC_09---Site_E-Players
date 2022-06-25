@@ -13,11 +13,14 @@
             <div>
                 <img src="./images/logo.svg" alt="logologin">
             </div>
-            <form method="POST">
-                <input type="text" name="none" placeholder="nome do usuario" autofocus>
-                <input type="password" name="senha" placeholder="sua senha">
-                <input onclick="acessarlogin()" type="submit" value="entrar">
-            </form>
+
+            <div id="msgError"></div>
+
+            
+                <input id="usuario" type="text" name="none" placeholder="Usuário" autofocus>
+                <input id="senha" type="password" name="senha" placeholder="Senha">
+                <input id="btn-entrar" onclick="entrar()" type="submit" value="entrar">
+           
             <P>Ainda não tem uma conta?<a href="#">Criar conta</a></P>
         </div>
     </section>
