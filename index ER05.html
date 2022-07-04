@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Players</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/testes-bootstrap.css"> -->
+
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <div class="container-grid header-flex">
+            <!-- Pode-se colocar mais de um atributo dentro do class -->
+            <h1>
+                <img class="logotipo" src="images/logo.svg" alt="Logotipo" title="E-Players logotipo">
+            </h1>
+            <nav id="menu-principal" class="menu-principal">
+                <a href="#">Início</a>
+                <a href="#">Horários</a>
+                <a href="#">Campeonato</a>
+                <a href="#" target="self">Resultados</a>
+                <a href="#" target="_blank">Notícias</a>
+                <a href="login.html" target="_blank" class="entrar">Entrar</a>
+                <!-- target blank abre uma nova guia -->
+            </nav>
+            <img onclick="mostraEscondeMenu();" class="menu-bars" src="./images/bars.svg" alt="Menu de barras"
+                title="Menu de Barras">
+        </div>
+
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="container-grid banner-box">
+                <div class="banner-info">
+                    <h2>Liga E-Players</h2>
+                    <p>O maior portal de campeonatos online</p>
+                    <a href="#">Inscreva-se</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="jogos">
+            <div class="container-grid jogos-images">
+                <img src="./images/patrocinadores/f1-logo.png" alt="">
+                <img src="./images/patrocinadores/lol-logo.png" alt="">
+                <img src="./images/patrocinadores/cs-logo.png" alt="">
+                <img src="./images/patrocinadores/valorant.png" alt="">
+                <img src="./images/patrocinadores/fifa.png" alt="">
+            </div>
+        </section>
+
+        <!-- bootstrap -->
+        <Section class="produtos">
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Produtos</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./images/cardnews.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+
+                                <h5 class="card-title">Jogo do ano 1</h5>
+                                <p class="card-text">Descrição do jogo do ano</p>
+                                <p class="card-title card-price">R$ 45,00</p>
+                                <a href="#" class="btn btn-danger">Comprar</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12  col-md-6 col-lg-3 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./images/cardnews.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+
+                                <h5 class="card-title">Jogo do ano 1</h5>
+                                <p class="card-text">Descrição do jogo do ano</p>
+                                <p class="card-title card-price">R$ 45,00</p>
+                                <a href="#" class="btn btn-danger">Comprar</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12  col-md-6 col-lg-3 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./images/cardnews.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+
+                                <h5 class="card-title">Jogo do ano 1</h5>
+                                <p class="card-text">Descrição do jogo do ano</p>
+                                <p class="card-title card-price">R$ 45,00</p>
+                                <a href="#" class="btn btn-danger">Comprar</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12  col-md-6 col-lg-3 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./images/cardnews.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+
+                                <h5 class="card-title">Jogo do ano 1</h5>
+                                <p class="card-text">Descrição do jogo do ano</p>
+                                <p class="card-title card-price">R$ 45,00</p>
+                                <a href="#" class="btn btn-danger">Comprar</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--FIM DA LINHA DE PRODUTOS-->
+
+            </div>
+            <!--FIM DO CONTAINER DE PRODUTOS-->
+
+
+        </Section>
+
+        <Section class="cparticiparbackground">
+            <div class="container d-flex comoparticiparbox">
+
+
+                <div>
+                    <h1 class="comoparticipar">Como participar das ligas?</h1>
+                    <p1 class="comoparticipartexto">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis molestiae, eius expedita
+                        voluptates nostrum aperiam a esse, minus, hic nulla velit? Obcaecati architecto harum dolorem
+                        laboriosam ipsa eos eaque odit!
+                        <br>
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reiciendis harum doloremque modi,
+                        possimus quo neque eligendi ipsa ipsum et totam dolor laborum porro accusantium explicabo dolore
+                        dignissimos? Repellendus, laborum?
+                        <br>
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reiciendis harum doloremque modi,
+                        possimus quo neque eligendi ipsa ipsum et totam dolor laborum porro accusantium explicabo dolore
+                        dignissimos? Repellendus, laborum?
+                    </p1>
+                </div>
+                <div>
+                    <img src="./images/campeao-lol.png" alt="">
+
+                </div>
+            </div>
+
+        </Section>
+
+
+
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="rodape d-flex container">
+
+            <div class="linksbox">
+
+                <h1 class="linkstítulo">Links úteis</h1>
+                <ul class="links">
+                    <li>Regras de utilização</li>
+                    <li>Início</li>
+                    <li>Suporte</li>
+                    <li>Central de ajuda</li>
+                    <li>Contato</li>
+
+            </div>
+
+            <div class="linksbox">
+
+                <h1 class="linkstítulo">Páginas</h1>
+                <ul class="links">
+                    <li>Início</li>
+                    <li>Campeonatos</li>
+                    <li>Resultados</li>
+                    <li>Notícias</li>
+                    <li>Login/Cadastro</li>
+
+            </div>
+            <div class="d-flex logotipobox">
+                <img src="images/logo.svg"  class="logotipo2" alt="Logotipo" title="E-Players logotipo">
+            </div>
+
+            <div class="cadastroredes d-flex">
+                <p class="assinenewsletter">Faça parte do nosso clan, assine nossa newsletter!</p>
+                <div class="d-flex cadastroemail">
+
+                    <div class="email">E-mail</div>
+                    <div class="cadastrar">Cadastrar</div>
+
+                </div>
+
+                <div class="redesocial"> Siga-nos em:
+                    <img src="./images/logo-instagram.png" class="logoinsta" alt="logo instagran">
+                    <img src="./images/logo-facebook.png" class="logoface" alt="logo facebook">
+                    <img src="./images/logo-yt.png" class="logoyoutube" alt="logo youtube">
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <!-- <p>Todos os direitos reservados</p> -->
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
