@@ -16,7 +16,4 @@ function entrar() {
     }else{
         msgError.innerHTML = 'Usuário ou senha incorretos!'
     }
-    
-  
-    
 }

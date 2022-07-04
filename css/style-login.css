@@ -37,7 +37,7 @@ body {
     background-color: #ffffff;
     padding-left: 20px;
     color: rgb(5, 5, 5);
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
     width:250px;
     height: 45px;
     outline: none;
@@ -82,7 +82,7 @@ p{
 }
 
 a {
-    color: #bb5151;
+    color: #c31616;
     text-decoration: none;
     margin-left: 10px;
     font-weight: bold;

@@ -163,8 +163,8 @@ body {
 }
 
 .btn-danger {
-   background-color: salmon;
-   border: 1px solid salmon;
+   background-color: #c31616;
+   border: 1px solid #c31616;
 }
 
 .btn-danger:hover {
