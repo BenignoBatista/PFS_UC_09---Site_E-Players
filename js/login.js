@@ -1,10 +1,12 @@
 $(document).ready(function(){
-    $('btn-entrar').click(function (){
+    $('#btn-entrar').click(function (){
         validarLogin();
    });
 });
 
-function validarLogin() {
+function validarLogin() {   
+    event.preventDefault();
+
     let usuario = document.querySelector('#usuario').value;
     let senha = document.querySelector('#senha').value;
 
